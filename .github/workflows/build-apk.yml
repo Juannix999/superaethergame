@@ -27,7 +27,7 @@ jobs:
           node-version: 20
 
       - name: 📦 Install Node dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: ☕ Setup Java 17 (Temurin)
         uses: actions/setup-java@v4
